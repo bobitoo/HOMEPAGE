@@ -1,0 +1,33 @@
+html {
+    background-color: bisque;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+h2 {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif
+}
+p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+h3 {
+    text-align: center;
+}
+.centeralbum {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centertext {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
