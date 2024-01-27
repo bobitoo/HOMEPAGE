@@ -1,0 +1,110 @@
+<html>
+    <style>
+        html {
+            background-color:honeydew ;
+        }
+        #buttontest {
+            width:200px;
+            height:50px;
+            position:absolute;
+            left:300;
+            top:300;
+            border: 10px;
+            border-style:groove;
+            border-color:powderblue;
+            border-radius: 60%;
+            border-width: 6px;
+            background-color: inherit;
+            font-size:16px;
+            text-align:center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            -webkit-text-fill-color: powderblue;
+            transition: background-color 0.3s, color 0.3s, border 0.3s;
+            
+        }
+        #buttontest:hover {
+            -webkit-text-fill-color: white;
+            background-color: powderblue;
+            border: 3px black;
+            border-style:groove;
+        }
+        #button2 {
+            width:200px;
+            height:50px;
+            position:absolute;
+            left:600;
+            top:600;
+            border:3px;
+            border-color:rgb(149, 211, 163);
+            border-radius: 50%;
+            border-style:groove;
+            background-color: inherit;
+            font-size:16px;
+            text-align:center;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            -webkit-text-fill-color: rgb(149, 211, 163);
+            transition: background-color 0.3s, color 0.3s, border 0.3s;
+            
+        }
+        #button2:hover {
+            -webkit-text-fill-color: white;
+            background-color: rgb(149, 211, 163);
+            border: 3px black;
+            border-style:groove;
+        }
+    </style> 
+    <script>
+        var x1 = 0;
+        var y1 = 0;
+        var x2 = 0;
+        var y2 = 100; 
+        var maxX = window.innerWidth - 200;
+        var maxY = window.innerHeight - 50;
+        window.onload = function()
+        {
+            var buttontest = document.getElementById("buttontest");
+            var button2 = document.getElementById("button2");
+            buttontest.addEventListener("click", function() {
+                window.location.href = "passion/index.html";
+            });
+            setInterval(function() {
+                x1++;
+                if (x1 > maxX) {
+                    x1 = 0;
+                }
+                buttontest.style.left = x1 + "px";
+            }, 10);
+
+            setInterval(function() {
+                y1++;
+                if (y1 > maxY) {
+                    y1 = 0;
+                }
+                buttontest.style.top = y1 + "px";
+            }, 20);
+
+            setInterval(function() {
+                x2++;
+                y2++;
+                if (x2 > maxX) {
+                    x2 = 0;
+                }
+                if (y2 > maxY) {
+                    y2 = 0;
+                }
+                button2.style.left = x2 + "px";
+                button2.style.top = y2 + "px";
+            }, 15);
+        }
+        
+        
+    </script>
+    <a id="buttontest" href="passion/index.html">PASSION!</a>
+    <a id="button2" href="first-website/index.html">FIRST WEBSITE!</a>
+</html>
