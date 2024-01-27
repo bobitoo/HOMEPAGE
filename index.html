@@ -5,10 +5,19 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <script>
+            var clicks=0;
+            function onClick(){
+                clicks+=1;
+                document.getElementById("clicks").innerHTML=clicks;
+            };
+        </script>
         <h1>Roberto Vazquez</h1>
         <p>Hello to all! This website is intended for Handmade Web 2024.</p>
         <a class="button1" href=passion/index.html>PASSION!</a>
         <a class="button2" href=first-website/index.html>FIRST WEBSITE!</a>
         <a class="button3" href=positiontest.html>JAVASCRIPT MESSING AROUND!</a>
+        <br>
+        <button type="button" class="button4" onClick="onClick()">I've been clicked <a id="clicks">0</a> times! :D</button>
     </body>
 </html>
