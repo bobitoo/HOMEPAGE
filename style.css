@@ -52,7 +52,7 @@ background-color: azure;}
 }
 
 .button4 {
-    border:3px rgb(255, 230, 118);
+    border:3px rgb(29, 130, 197);
     bottom:300px;
     right:200px;
     position: absolute;
@@ -62,11 +62,11 @@ background-color: azure;}
     background-color: inherit;
     display: inline-block;
     font-size:16px;
-    -webkit-text-fill-color: rgb(255, 230, 118);
+    -webkit-text-fill-color: rgb(29, 130, 197);
     transition: background-color 0.3s, color 0.3s, border 0.3s;
 
 }
-.button4:hover {background: rgb(255, 230, 118);
+.button4:hover {background: rgb(29, 130, 197);
     -webkit-text-fill-color: white;
     border-color:white;
 }
