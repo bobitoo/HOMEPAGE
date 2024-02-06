@@ -70,3 +70,19 @@ background-color: azure;}
     -webkit-text-fill-color: white;
     border-color:white;
 }
+.button5 {
+    border:3px rgb(0, 0, 0);
+    border-style: dashed;
+    border-radius: 8%;
+    padding: 8px;
+    background-color: inherit;
+    display: inline-block;
+    font-size:16px;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+
+}
+.button5:hover {background: rgb(0, 0, 0);
+    -webkit-text-fill-color: white;
+    border-color:white;
+}
