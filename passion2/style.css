@@ -95,3 +95,12 @@ audio::-webkit-media-controls-panel {
     right:20px;
     position: absolute;
 }
+.doof2 {
+    position: absolute;
+    opacity: .20;
+    bottom: 0px;
+    right: 600px;
+    left:auto;
+    top:400px;
+    min-height:1000px;
+}
