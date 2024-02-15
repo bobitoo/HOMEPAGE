@@ -1,0 +1,160 @@
+img {
+    width: 95%;
+    height:95%;
+}
+html {
+    background-image: "tote1.png";
+}
+.tote1 {
+    background-color: rgb(160, 216, 216);
+    height:1000px;
+    width:90%;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    top:0px;
+    transition-duration: 0.2s;
+}
+.tote2{
+    background-color: rgb(92, 179, 179);
+    height:900px;
+    width:80%;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    transition-duration: 0.2s;
+}
+.tote3{
+    background-color: rgb(51, 138, 138);
+    height:800px;
+    width:70%;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    transition-duration: 0.2s;
+}
+.tote4{
+    background-color: rgb(16, 77, 77);
+    height:700px;
+    width:60%;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    transition-duration: 0.2s;
+}
+.tote5{
+    background-color: rgb(3, 37, 37);
+    height:600px;
+    width:50%;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    transition-duration: 0.2s;
+}
+.tote6 {
+    background-color: rgb(160, 216, 216);
+    height:1000px;
+    width:90%;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    transition-duration: 0.2s;
+}
+.tote7{
+    background-color: rgb(160, 216, 169);
+    height:900px;
+    width:80%;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    transition-duration: 0.2s;
+}
+.tote8{
+    background-color: rgb(160, 164, 216);
+    height:800px;
+    width:70%;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    transition-duration: 0.2s;
+}
+.tote9{
+    background-color: rgb(224, 219, 138);
+    height:700px;
+    width:60%;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    transition-duration: 0.2s;
+}
+.tote10{
+    background-color: rgb(216, 160, 160);
+    height:600px;
+    width:50%;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    transition-duration: 0.2s;
+}
+.tote1:hover{
+    background-color: rgb(122, 161, 161);
+}
+.tote2:hover{
+    background-color: rgb(75, 146, 146);
+}
+.tote3:hover{
+    background-color: rgb(33, 90, 90);
+}
+.tote4:hover{
+    background-color: rgb(10, 46, 46);
+}
+.tote5:hover{
+    background-color: rgb(1, 12, 12);
+}
+.tote6:hover{
+    background-color: rgb(112, 216, 216);
+}
+.tote7:hover{
+    background-color: rgb(115, 219, 132);
+}
+.tote8:hover{
+    background-color: rgb(123, 129, 218);
+}
+.tote9:hover{
+    background-color: rgb(223, 216, 99);
+}
+.tote10:hover{
+    background-color: rgb(214, 119, 119);
+}
+
+
+.tote1:active{
+    background-color: rgb(248, 201, 246);
+}
+.tote2:active{
+    background-color: rgb(197, 139, 194);
+}
+.tote3:active{
+    background-color: rgb(146, 95, 144);
+}
+.tote4:active{
+    background-color: rgb(95, 60, 94);
+}
+.tote5:active{
+    background-color: rgb(46, 26, 45);
+}
+.tote6:active{
+    background-color: rgb(0, 211, 211);
+}
+.tote7:active{
+    background-color: rgb(1, 216, 37);
+}
+.tote8:active{
+    background-color: rgb(15, 28, 216);
+}
+.tote9:active{
+    background-color: rgb(226, 215, 2);
+}
+.tote10:active{
+    background-color: rgb(209, 0, 0);
+}
