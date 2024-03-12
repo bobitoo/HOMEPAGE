@@ -1,0 +1,63 @@
+svg{
+    width:max-content;
+    height:max-content;
+    transition-duration: 2s;
+}
+
+img {
+    position:absolute;
+}
+
+html {
+    background-color: rgb(116, 211, 255);
+    animation-name: main;
+    animation-duration: 100s;
+    animation-delay: 20s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes main {
+    0% {background-color: rgb(116, 211, 255);}
+    10% {background-color: rgb(116, 130, 255);}
+    20% {background-color: rgb(188, 116, 255);}
+    30% {background-color: rgb(255, 116, 220);}
+    40% {background-color: rgb(255, 116, 116);}
+    50% {background-color: rgb(255, 179, 116);}
+    60% {background-color: rgb(255, 234, 116);}
+    70% {background-color: rgb(202, 255, 116);}
+    80% {background-color: rgb(128, 255, 116);}
+    90% {background-color: rgb(116, 255, 209);}
+    100% {background-color: rgb(116, 211, 255);}
+  }
+  body {
+    color: #fff;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    font-size: 2vw;
+    font-weight: bold;
+  }
+  marquee {
+    width:100%;
+    display: flex;
+  }
+  .bounce {
+    height :500px;
+    width:1000px;
+    justify-content: center;
+    align-items:center;
+    margin: 0 auto;
+    border-color: black;
+    display:inline-flexbox;
+  }
+  button {
+    background-color: transparent;
+  }
+  button:hover {
+    opacity:0.8;
+    cursor: pointer;
+  }
+  a {
+    max-width: fit-content;
+    max-height: 100px;
+  }

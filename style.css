@@ -102,3 +102,33 @@ background-color: azure;}
     -webkit-text-fill-color: white;
     border-color:white;
 }
+.button7 {
+    border:3px rgb(0, 13, 189);
+    border-style: dashed;
+    border-radius: 8%;
+    padding: 8px;
+    background-color: inherit;
+    display: inline-block;
+    font-size:16px;
+    -webkit-text-fill-color: rgb(0, 13, 189);
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+.button7:hover {background: rgb(0, 13, 189);
+    -webkit-text-fill-color: white;
+    border-color:white;
+}
+.button8 {
+    border:3px rgb(0, 189, 41);
+    border-style: dashed;
+    border-radius: 8%;
+    padding: 8px;
+    background-color: inherit;
+    display: inline-block;
+    font-size:16px;
+    -webkit-text-fill-color: rgb(0, 189, 41);
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+.button8:hover {background: rgb(0, 189, 41);
+    -webkit-text-fill-color: white;
+    border-color:white;
+}

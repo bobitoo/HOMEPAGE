@@ -62,7 +62,7 @@ html {
 }
 .tote7{
     background-color: rgb(160, 216, 169);
-    height:900px;
+    height:800px;
     width:80%;
     justify-content: center;
     align-items: center;
@@ -71,7 +71,7 @@ html {
 }
 .tote8{
     background-color: rgb(160, 164, 216);
-    height:800px;
+    height:600px;
     width:70%;
     justify-content: center;
     align-items: center;
@@ -80,7 +80,7 @@ html {
 }
 .tote9{
     background-color: rgb(224, 219, 138);
-    height:700px;
+    height:400px;
     width:60%;
     justify-content: center;
     align-items: center;
@@ -89,7 +89,7 @@ html {
 }
 .tote10{
     background-color: rgb(216, 160, 160);
-    height:600px;
+    height:200px;
     width:50%;
     justify-content: center;
     align-items: center;
