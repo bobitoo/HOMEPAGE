@@ -12,6 +12,10 @@ html {
     padding:0px;
     border-style: none;
     display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 .main2 {
     position: relative;
@@ -22,7 +26,10 @@ html {
     background-color: rgb(226, 134, 14);
     margin: 0px auto;
     padding:0px;
-
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 .main3 {
@@ -35,6 +42,10 @@ html {
     padding:0px;
     border-style: none;
     display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 .main4 {
     position: relative;
@@ -45,7 +56,10 @@ html {
     background-color: rgb(49, 226, 14);
     margin: 0px auto;
     padding:0px;
-
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 .main5 {
@@ -58,6 +72,10 @@ html {
     padding:0px;
     border-style: none;
     display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 .main6 {
     position: relative;
@@ -68,7 +86,10 @@ html {
     background-color: rgb(14, 184, 226);
     margin: 0px auto;
     padding:0px;
-
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 .main7 {
     position: inherit;
@@ -80,6 +101,10 @@ html {
     padding:0px;
     border-style: none;
     display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 .main8 {
     position: relative;
@@ -90,7 +115,10 @@ html {
     background-color: rgb(78, 14, 226);
     margin: 0px auto;
     padding:0px;
-
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 .main9 {
@@ -103,6 +131,10 @@ html {
     padding:0px;
     border-style: none;
     display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 .main10 {
     position: relative;
@@ -113,7 +145,10 @@ html {
     background-color: rgb(226, 14, 162);
     margin: 0px auto;
     padding:0px;
-
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 .main11 {
@@ -126,6 +161,7 @@ html {
     padding:0px;
     border-style: none;
     display:flex;
+    overflow: hidden;
 }
 .main12 {
     position: relative;
@@ -136,7 +172,7 @@ html {
     background-color: rgb(191, 14, 226);
     margin: 0px auto;
     padding:0px;
-
+    overflow: hidden;
 }
 
 .main13 {
@@ -149,6 +185,7 @@ html {
     padding:0px;
     border-style: none;
     display:flex;
+    overflow: hidden;
 }
 .main14 {
     position: relative;
@@ -159,7 +196,7 @@ html {
     background-color: rgb(14, 71, 226);
     margin: 0px auto;
     padding:0px;
-
+    overflow: hidden;
 }
 
 .main15 {
@@ -172,6 +209,7 @@ html {
     padding:0px;
     border-style: none;
     display:flex;
+    overflow: hidden;
 }
 .main16 {
     position: relative;
@@ -182,7 +220,7 @@ html {
     background-color: rgb(14, 226, 180);
     margin: 0px auto;
     padding:0px;
-
+    overflow: hidden;
 }
 .main17 {
     position: inherit;
@@ -194,6 +232,7 @@ html {
     padding:0px;
     border-style: none;
     display:flex;
+    overflow: hidden;
 }
 .main18 {
     position: relative;
@@ -204,7 +243,7 @@ html {
     background-color: rgb(226, 212, 14);
     margin: 0px auto;
     padding:0px;
-
+    overflow: hidden;
 }
 
 .main19 {
@@ -217,6 +256,7 @@ html {
     padding:0px;
     border-style: none;
     display:flex;
+    overflow: hidden;
 }
 .main20 {
     position: relative;
@@ -227,5 +267,5 @@ html {
     background-color: rgb(226, 14, 14);
     margin: 0px auto;
     padding:0px;
-
+    overflow: hidden;
 }
