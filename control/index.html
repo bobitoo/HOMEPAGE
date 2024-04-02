@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="9.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
+    <title>CONTROL</title>
+</head>
+<body onload ="move('element')">
+    <div class="container">
+        <div class="element" style="background-color: rgb(0, 136, 255);">
+            <img src="1.png" draggable="false">
+        </div>
+        <div class="element" style="background-color: rgb(164, 177, 255);">
+            <img src="Asset 2.png" draggable="false">
+        </div>
+        <div class="element" style="background-color: rgb(159, 255, 167);">
+            <img src="2.png" draggable="false">
+        </div>
+        <div class="element" style="background-color: rgb(248, 165, 255);">
+            <img src="3.png" draggable="false">
+        </div>
+        <div class="element" style="background-color: rgb(192, 55, 255);">
+            <img src="4.png" draggable="false">
+        </div>
+        <div class="element" style="background-color: rgb(51, 255, 68);">
+            <img src="5.png" draggable="false">
+        </div>
+        <div class="element" style="background-color: rgb(255, 103, 83);">
+            <img src="6.png" draggable="false">
+        </div>
+        <div class="element" style="background-color: rgba(216, 0, 0, 0.726);">
+            <img src="7.png">
+        </div>
+        <div class="element" style="background-color: rgb(32, 0, 216);">
+            <img src="8.png" draggable="false">
+        </div>
+        <div class="element" style="background-color: rgb(51, 255, 68);">
+            <img src="9.png" draggable="false">
+        </div>
+        <div class="element" style="background-color: rgb(88, 255, 241);">
+            <img src="10.png" draggable="false">
+        </div>
+        <div class="element" style="background-color: rgb(19, 117, 40);">
+            <img src="11.png">
+        </div>
+    </div>
+
+    <script>
+        var chooseElement;
+
+        const move = function(element){
+            const elements = document.querySelectorAll(".element")
+
+            elements.forEach(element => {
+                element.addEventListener("mousedown", () => {
+                    element.style.position = "absolute"
+                    chooseElement = element
+
+                    document.onmousemove = (e) => {
+                        var x = e.pageX
+                        var y = e.pageY
+
+                        chooseElement.style.left = x -150 + "px"
+                        chooseElement.style.top = y -150 + "px"
+
+                    }
+                })
+            })
+            document.onmouseup = function(e){
+                chooseElement = null
+            }
+            document.getElementById('img').setAttribute('draggable', false)
+        }
+    </script>
+    <style>
+        .container {
+    display: flex;
+    justify-content:center;
+
+}
+.container .element {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 10px;
+    justify-content: center;
+    mix-blend-mode: difference;
+}
+img {
+    max-width: 300px;
+    max-height: 300px;
+    min-width: 300px;
+    min-height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+    </style>
+</body>
+</html>
