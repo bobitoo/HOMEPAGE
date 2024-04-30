@@ -9,6 +9,7 @@ background-color: azure;}
     background-color: inherit;
     display: inline-block;
     font-size:16px;
+    text-decoration: none;
     -webkit-text-fill-color: powderblue;
     transition: background-color 0.3s, color 0.3s, border 0.3s;
 
@@ -25,6 +26,7 @@ background-color: azure;}
     background-color: inherit;
     display: inline-block;
     font-size:16px;
+    text-decoration: none;
     -webkit-text-fill-color: rgb(189, 230, 176);
     transition: background-color 0.3s, color 0.3s, border 0.3s;
 
@@ -42,6 +44,7 @@ background-color: azure;}
     background-color: inherit;
     display: inline-block;
     font-size:16px;
+    text-decoration: none;
     -webkit-text-fill-color: rgb(224, 159, 197);
     transition: background-color 0.3s, color 0.3s, border 0.3s;
 
@@ -62,6 +65,7 @@ background-color: azure;}
     background-color: inherit;
     display: inline-block;
     font-size:16px;
+    text-decoration: none;
     -webkit-text-fill-color: rgb(29, 130, 197);
     transition: background-color 0.3s, color 0.3s, border 0.3s;
 
@@ -78,6 +82,7 @@ background-color: azure;}
     background-color: inherit;
     display: inline-block;
     font-size:16px;
+    text-decoration: none;
     -webkit-text-fill-color: rgb(0, 0, 0);
     transition: background-color 0.3s, color 0.3s, border 0.3s;
 
@@ -90,6 +95,7 @@ background-color: azure;}
     background-color: inherit;
     display: inline-block;
     font-size:16px;
+    text-decoration: none;
     -webkit-text-fill-color: rgb(173, 0, 0);
     transition: background-color 0.3s, color 0.3s, border 0.3s;
 
@@ -110,6 +116,7 @@ background-color: azure;}
     background-color: inherit;
     display: inline-block;
     font-size:16px;
+    text-decoration: none;
     -webkit-text-fill-color: rgb(0, 13, 189);
     transition: background-color 0.3s, color 0.3s, border 0.3s;
 }
@@ -125,6 +132,7 @@ background-color: azure;}
     background-color: inherit;
     display: inline-block;
     font-size:16px;
+    text-decoration: none;
     -webkit-text-fill-color: rgb(0, 189, 41);
     transition: background-color 0.3s, color 0.3s, border 0.3s;
 }
@@ -140,10 +148,28 @@ background-color: azure;}
     background-color: inherit;
     display: inline-block;
     font-size:16px;
+    text-decoration: none;
     -webkit-text-fill-color: rgb(0, 59, 13);
     transition: background-color 0.3s, color 0.3s, border 0.3s;
 }
 .button9:hover {background: rgb(0, 59, 13);
+    -webkit-text-fill-color: white;
+    border-color:white;
+}
+
+.button10 {
+    border:3px rgb(0, 162, 255);
+    border-style: dashed;
+    border-radius: 8%;
+    padding: 8px;
+    background-color: inherit;
+    display: inline-block;
+    text-decoration: none;
+    font-size:16px;
+    -webkit-text-fill-color: rgb(0, 162, 255);
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+.button10:hover {background: rgb(0, 162, 255);
     -webkit-text-fill-color: white;
     border-color:white;
 }
